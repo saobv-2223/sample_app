@@ -1,0 +1,10 @@
+vi:
+  en: "Tiếng Anh"
+  vi: "Tiếng Việt"
+  home: "Trang chủ"
+  help: "Trợ giúp"
+  simple_pages:
+    home:
+      title: "Đây là trang home"
+    help:
+      title: "Đây là trang trợ giúp"
