@@ -31,3 +31,12 @@
 
 en:
   hello: "Hello world"
+  en: "English"
+  vi: "Vietnamese"
+  home: "Home"
+  help: "Help"
+  simple_pages:
+    home:
+      title: "This is home page"
+    help:
+      title: "This is help page"
