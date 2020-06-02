@@ -3,6 +3,7 @@ vi:
   vi: "Tiếng Việt"
   home: "Trang chủ"
   help: "Trợ giúp"
+  base_title: "Học Ruby on Rails"
   simple_pages:
     home:
       title: "Đây là trang home"
