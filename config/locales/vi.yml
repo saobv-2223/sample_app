@@ -7,12 +7,19 @@ vi:
   log_in: "Đăng nhập"
   sign_up: "Đăng ký"
   base_title: "Học Ruby on Rails"
+  profile: "Trang cá nhân"
+  setting: "Thiết lập"
   simple_pages:
     home:
       title: "Đây là trang home"
       welcome: "Chào mừng bạn đến với Ruby on Rails"
     help:
       title: "Đây là trang trợ giúp"
+  auths:
+    login_fail: "Tên tài khoản hoặc mật khẩu không chính xác"
+    login_success: "Đăng nhập thành công"
+    logout: "Đăng xuất"
+    logout_success: "Đã đăng xuất thành công"
   users:
     no_exist: "Tài khoản này không tồn tại trên hệ thống"
     new:

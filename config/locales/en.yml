@@ -39,12 +39,19 @@ en:
   log_in: "Log in"
   sign_up: "Sign up"
   base_title: "Ruby on Rails Tutorials"
+  profile: "Profile"
+  setting: "Setting"
   simple_pages:
     home:
       title: "This is home page"
       welcome: "Welcome to Ruby on Rails Tutorials"
     help:
       title: "This is help page"
+  auths:
+    login_fail: "Email or password is incorrect"
+    login_success: "You have logged in successfully"
+    logout: "Log out"
+    logout_success: "Logged out successfully"
   users:
     no_exist: "This account dose not exist"
     new:
