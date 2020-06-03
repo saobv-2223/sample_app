@@ -3,9 +3,13 @@ vi:
   vi: "Tiếng Việt"
   home: "Trang chủ"
   help: "Trợ giúp"
+  ror: "Ruby on Rails"
+  log_in: "Đăng nhập"
+  sign_up: "Đăng ký"
   base_title: "Học Ruby on Rails"
   simple_pages:
     home:
       title: "Đây là trang home"
+      welcome: "Chào mừng bạn đến với Ruby on Rails"
     help:
       title: "Đây là trang trợ giúp"

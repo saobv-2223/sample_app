@@ -35,9 +35,13 @@ en:
   vi: "Vietnamese"
   home: "Home"
   help: "Help"
+  ror: "Ruby on Rails"
+  log_in: "Log in"
+  sign_up: "Sign up"
   base_title: "Ruby on Rails Tutorials"
   simple_pages:
     home:
       title: "This is home page"
+      welcome: "Welcome to Ruby on Rails Tutorials"
     help:
       title: "This is help page"
