@@ -1,6 +1,8 @@
 <%= provide :title, t("home") %>
-<h2><%= t ".title" %></h2>
-<%= link_to t("en"), locale: :en %>
-<%= link_to t("vi"), locale: :vi %>
-<br>
-<%= link_to t("help"), help_path %>
+<div class="center jumbotron">
+  <h1><%= t ".welcome" %></h1>
+  <h2>
+    <%= link_to t("base_title"), "https://www.railstutorial.org/" %>
+  </h2>
+  <%= link_to t("sign_up"), "#", class: "btn btn-lg btn-primary" %>
+</div>
