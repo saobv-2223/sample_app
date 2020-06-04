@@ -45,3 +45,26 @@ en:
       welcome: "Welcome to Ruby on Rails Tutorials"
     help:
       title: "This is help page"
+  users:
+    no_exist: "This account dose not exist"
+    new:
+      title: "Sign up"
+      name: "Name"
+      password: "Password"
+      password_confirmation: "Confirmation"
+      signup_success: "You registered successfully"
+      signup_fail: "You registered unsuccessfully"
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              taken: "This email address was existed"
+              invalid: "Email address must be in the correct format"
+              blank: "Email address can not be null"
+            name:
+              blank: "Name can not be null"
+            password_confirmation:
+              confirmation: "Password confirmation does not match"
+              blank: "Password can not be null"
