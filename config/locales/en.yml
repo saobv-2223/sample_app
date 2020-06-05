@@ -52,6 +52,8 @@ en:
     login_success: "You have logged in successfully"
     logout: "Log out"
     logout_success: "Logged out successfully"
+    remember_me: "Remember me"
+    no_have_account: "You don't have account ?"
   users:
     no_exist: "This account dose not exist"
     new:

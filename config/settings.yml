@@ -1,1 +1,2 @@
 email_regex: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
+remember_me: "1"

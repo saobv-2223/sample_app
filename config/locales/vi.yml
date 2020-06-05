@@ -20,6 +20,8 @@ vi:
     login_success: "Đăng nhập thành công"
     logout: "Đăng xuất"
     logout_success: "Đã đăng xuất thành công"
+    remember_me: "Ghi nhớ đăng nhập"
+    no_have_account: "Bạn chưa có tài khoản ?"
   users:
     no_exist: "Tài khoản này không tồn tại trên hệ thống"
     new:

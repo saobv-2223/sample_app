@@ -7,8 +7,12 @@
       <%= f.email_field :email, class: "form-control" %>
       <%= f.label :password, t("users.new.password") %>
       <%= f.password_field :password, class: "form-control" %>
+      <%= f.label :remember, class: "checkbox-inline" do %>
+        <%= f.check_box :remember %>
+        <span><%= t "auths.remember_me" %></span>
+      <% end %>
       <%= f.submit t("log_in"), class: "btn btn-primary" %>
     <% end %>
-    <p><%= t "users.new.title" %> <%= link_to t("sign_up"), signup_path %></p>
+    <p><%= t "auths.no_have_account" %> <%= link_to t("sign_up"), signup_path %></p>
   </div>
 </div>
