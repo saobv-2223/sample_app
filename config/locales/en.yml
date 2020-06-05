@@ -54,6 +54,8 @@ en:
     logout_success: "Logged out successfully"
     remember_me: "Remember me"
     no_have_account: "You don't have account ?"
+    not_login: "You have to log in"
+    incorrect_user: "Your access was denied"
   users:
     no_exist: "This account dose not exist"
     new:
@@ -63,6 +65,18 @@ en:
       password_confirmation: "Confirmation"
       signup_success: "You registered successfully"
       signup_fail: "You registered unsuccessfully"
+    edit:
+      update: "Update"
+      title: "Update your profile"
+      update_success: "Updated successfully"
+      update_fail: "Updated un-successfully"
+    index:
+      title: "List all users"
+      avatar: "Avatar"
+      delete: "Delete"
+      confirm: "Are you sure to delete this user"
+      delete_success: "You deleted successfully"
+      delete_fail: "You deleted unsuccessfully"
   activerecord:
     errors:
       models:
@@ -77,3 +91,10 @@ en:
             password_confirmation:
               confirmation: "Password confirmation does not match"
               blank: "Password can not be null"
+  views:
+    pagination:
+      first: "« FIRST"
+      last: "LAST »"
+      previous: "‹ PREV"
+      next: "NEXT ›"
+      truncate: "…"

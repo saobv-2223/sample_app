@@ -17,6 +17,9 @@ gem "bootsnap", ">= 1.4.2", require: false
 gem "bcrypt", "3.1.11"
 gem "config"
 gem "jquery-rails", "4.3.1"
+gem "faker", "1.7.3"
+gem "kaminari"
+gem "bootstrap-kaminari-views"
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
