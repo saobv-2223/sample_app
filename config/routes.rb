@@ -10,6 +10,6 @@ Rails.application.routes.draw do
     get "login", to: "auths#new"
     post "login", to: "auths#create"
     delete "logout", to: "auths#destroy"
-    resources :users, only: :show
+    resources :users, except: %i(new create)
   end
 end

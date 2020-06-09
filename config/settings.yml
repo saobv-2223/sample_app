@@ -1,2 +1,4 @@
 email_regex: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
-remember_me: "1"
+remember_me: 1
+min_password_length: 6
+per_page: 10

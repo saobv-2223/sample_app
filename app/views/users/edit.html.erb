@@ -1,0 +1,13 @@
+<%= provide :title, @user.name %>
+<%= provide :button_text, t("users.edit.update") %>
+<h1 class="text-center"><%= t "users.edit.title" %></h1>
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <div class="gravatar-edit">
+      <%= gravatar_for @user %>
+      <%= link_to t(".avatar"), "http://gravatar.com/emails", target: "_blank" %>
+    </div>
+    <div class="clearfix"></div>
+    <%= render "form" %>
+  </div>
+</div>
