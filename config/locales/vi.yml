@@ -35,6 +35,14 @@ vi:
       activate_success: "Tài khoản đã được xác thực"
       activate_fail: "Xác thực tài khoản không thành công"
       no_activated: "Tài khoản của bạn chưa được xác thực, kiểm tra email để xác thưc tài khoản"
+    forget_password:
+      forget_password: "Quên mật khẩu ?"
+      title: "Lấy lại mật khẩu"
+      button_send: "Gửi yêu cầu"
+      send_request_success: "Hãy kiểm tra hòm thư mail của bạn để thực hiện lấy lại mật khẩu"
+      error_token_or_unactivated: "Rất tiếc, yêu cầu không tồn tại hoặc tài khoản của bạn chưa được xác thực"
+      reset_password_success: "Thay đổi mật khẩu thành công"
+      reset_password_fail: "Thay đổi mật khẩu không thành công"
   users:
     no_exist: "Tài khoản này không tồn tại trên hệ thống"
     new:

@@ -67,6 +67,14 @@ en:
       activate_success: "Activated account successfully"
       activate_fail: "Activated account un-successfully"
       no_activated: "Your account is not activated, check mail box for activation link"
+    forget_password:
+      forget_password: "Forgot password ?"
+      title: "Request reset password"
+      button_send: "Send"
+      send_request_success: "Check your email to reset your password"
+      error_token_or_unactivated: "Sorry, the request does not exist or your account is not activated"
+      reset_password_success: "You have just changed password successfully"
+      reset_password_fail: "You have just changed password un-successfully"
   users:
     no_exist: "This account dose not exist"
     new:
