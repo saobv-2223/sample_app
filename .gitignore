@@ -46,3 +46,8 @@ config/database.yml
 .generators
 .rakeTasks
 test/controllers/*.rb
+test/mailers/*.rb
+test/mailers/previews/*.rb
+
+# Ignore application configuration
+/config/application.yml

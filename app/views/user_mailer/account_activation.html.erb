@@ -1,0 +1,3 @@
+<h1><%= t "auths.mail.greeting" %>, <%= @user.name %></h1>
+<br>
+<%= link_to t("auths.mail.subject"), activation_url(token: @user.activation_token, email: @user.email) %>
