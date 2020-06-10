@@ -18,3 +18,9 @@ User.create!(name: "User",
                password: password,
                password_confirmation: password)
 end
+
+user = User.order(:created_at).take(6)
+30.times do
+  content = Faker::Lorem.sentence(5)
+  user.each { |user| user.micro_posts.create!(content: content)}
+end

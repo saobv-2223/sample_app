@@ -10,8 +10,9 @@ Rails.application.routes.draw do
     get "login", to: "auths#new"
     post "login", to: "auths#create"
     delete "logout", to: "auths#destroy"
-    resources :users, except: %i(new create)
     get "activation/:token", to: "auths#edit", as: "activation"
     resources :password_resets, except: %i(index show destroy)
+    resources :users, except: %i(new create)
+    resources :micro_posts, only: %i(create destroy)
   end
 end

@@ -7,15 +7,14 @@ class User < ApplicationRecord
   before_save :downcase_email
   before_create :create_activation_digest
 
+  has_many :micro_posts, dependent: :destroy
+  has_secure_password
   validates :name, presence: true
   validates :email, presence: true,
-            uniqueness: true,
-            format: {with: VALID_EMAIL_REGEX}
+            uniqueness: true, format: {with: VALID_EMAIL_REGEX}
   validates :password, presence: true,
             length: {minimum: Settings.min_password_length},
             allow_nil: true
-
-  has_secure_password
 
   class << self
     def digest string
@@ -41,6 +40,10 @@ class User < ApplicationRecord
     digest = send "#{attribute}_digest"
     return false unless digest
     BCrypt::Password.new(digest).is_password? token
+  end
+
+  def feed
+    micro_posts
   end
 
   def forget

@@ -9,6 +9,12 @@ vi:
   base_title: "Học Ruby on Rails"
   profile: "Trang cá nhân"
   setting: "Thiết lập"
+  datetime:
+    distance_in_words:
+      about_x_hours: "%{count}h"
+      x_minutes: "%{count}p"
+      x_days: "%{count} ngày"
+      x_months: "%{count} tháng"
   simple_pages:
     home:
       title: "Đây là trang home"
@@ -80,6 +86,12 @@ vi:
             password_confirmation:
               confirmation: "Mật khẩu không khớp"
               blank: "Mật khẩu không được bỏ trống"
+        micro_post:
+          attributes:
+            content:
+              blank: "Nội dung không được bỏ trống"
+            image:
+              content_type_invalid: "Chỉ hỗ trợ file ảnh .png, .jpg hoặc .jpeg"
   views:
     pagination:
       first: "« ĐẦU"
@@ -87,3 +99,15 @@ vi:
       previous: "‹ TRƯỚC"
       next: "SAU ›"
       truncate: "…"
+  microposts:
+    title: "Bài viết"
+    posted: "Đã đăng"
+    time_ago: "trước"
+    create_success: "Đã tạo bài viết thành công"
+    create_fail: "Tạo bài viết không thành công"
+    write: "Bạn đang nghĩ gì...?"
+    delete: "Bạn có chắc chắn muốn xóa bài viết này ?"
+    delete_success: "Bạn đã xóa bài viết thành công"
+    delete_fail: "Bạn đã xóa bài viết không thành công"
+    image_size: "Chỉ hỗ trợ file ảnh có dung lượng < 5MB"
+    post: "Đăng"

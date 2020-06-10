@@ -110,6 +110,12 @@ en:
             password_confirmation:
               confirmation: "Password confirmation does not match"
               blank: "Password can not be null"
+        micro_post:
+          attributes:
+            content:
+              blank: "Content can not be null"
+            image:
+              content_type_invalid: "Chỉ hỗ trợ file ảnh .png, .jpg hoặc .jpeg"
   views:
     pagination:
       first: "« FIRST"
@@ -117,3 +123,15 @@ en:
       previous: "‹ PREV"
       next: "NEXT ›"
       truncate: "…"
+  microposts:
+    title: "Microposts"
+    posted: "Posted"
+    time_ago: "ago"
+    create_success: "Created micro post successfully"
+    create_fail: "Created micro post un-successfully"
+    write: "What's on your mind...?"
+    delete: "Are you sure to delete this micro post ?"
+    delete_success: "You deleted micro post successfully"
+    delete_fail: "You deleted micro post un-successfully"
+    image_size: "Maximum file size upload must be smaller than 5MB"
+    post: "Post"

@@ -4,7 +4,9 @@ class UsersController < ApplicationController
   before_action :find_user, except: %i(new create index)
   before_action :correct_user, only: %i(edit update)
 
-  def show; end
+  def show
+    @micro_posts = @user.micro_posts.by_created_at.page(params[:page]).per(Settings.per_page)
+  end
 
   def new
     @user = User.new
