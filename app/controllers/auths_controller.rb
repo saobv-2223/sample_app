@@ -34,7 +34,7 @@ class AuthsController < ApplicationController
       flash[:success] = t ".mail.activate_success"
       redirect_to user
     else
-      flash[:dark] = t ".mail.activate_fail"
+      flash[:danger] = t ".mail.activate_fail"
       redirect_to root_path
     end
   end

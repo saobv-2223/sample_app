@@ -12,5 +12,6 @@ Rails.application.routes.draw do
     delete "logout", to: "auths#destroy"
     resources :users, except: %i(new create)
     get "activation/:token", to: "auths#edit", as: "activation"
+    resources :password_resets, except: %i(index show destroy)
   end
 end
