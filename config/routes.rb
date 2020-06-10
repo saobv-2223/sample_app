@@ -11,5 +11,6 @@ Rails.application.routes.draw do
     post "login", to: "auths#create"
     delete "logout", to: "auths#destroy"
     resources :users, except: %i(new create)
+    get "activation/:token", to: "auths#edit", as: "activation"
   end
 end

@@ -56,6 +56,17 @@ en:
     no_have_account: "You don't have account ?"
     not_login: "You have to log in"
     incorrect_user: "Your access was denied"
+    status: "Status"
+    verified: "Activated"
+    un_verified: "Un-activated"
+    mail:
+      greeting: "Hi"
+      subject: "Account activation"
+      content: "Welcome to Sun* Education! Click on the link below to active your account."
+      notice: "Please, check your email to activate your account"
+      activate_success: "Activated account successfully"
+      activate_fail: "Activated account un-successfully"
+      no_activated: "Your account is not activated, check mail box for activation link"
   users:
     no_exist: "This account dose not exist"
     new:

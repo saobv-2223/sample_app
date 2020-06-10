@@ -24,6 +24,17 @@ vi:
     no_have_account: "Bạn chưa có tài khoản ?"
     not_login: "Bạn cần đăng nhập để thực hiện"
     incorrect_user: "Yêu cầu không thể thực hiện"
+    status: "Trạng thái"
+    verified: "Đã xác thực"
+    un_verified: "Chưa xác thực"
+    mail:
+      greeting: "Xin chào"
+      subject: "Xác thực tài khoản"
+      content: "Chào mừng bạn đến với Sun* Education! Hãy nhấn vào link bên dưới để xác thực tài khoản của bạn"
+      notice: "Hãy kiểm tra hòm thư mail của bạn để xác thực tài khoản"
+      activate_success: "Tài khoản đã được xác thực"
+      activate_fail: "Xác thực tài khoản không thành công"
+      no_activated: "Tài khoản của bạn chưa được xác thực, kiểm tra email để xác thưc tài khoản"
   users:
     no_exist: "Tài khoản này không tồn tại trên hệ thống"
     new:
