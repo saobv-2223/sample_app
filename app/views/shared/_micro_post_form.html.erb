@@ -1,0 +1,12 @@
+<%= form_for @micro_post do |f| %>
+  <%= render "shared/error", object: f.object %>
+  <div class="field">
+    <%= f.text_area :content, required: "required", placeholder: t("microposts.write") %>
+  </div>
+  <span class="image">
+    <%= f.file_field :image, accept: Settings.file_type.gsub(" ", ", ") %>
+    <div class="preview-image"></div>
+  </span>
+  <%= f.submit t("microposts.post"), class: "btn btn-primary" %>
+<% end %>
+<%= javascript_pack_tag "validate_image" %>
