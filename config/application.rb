@@ -18,5 +18,6 @@ module RailsBasic
     I18n.load_path += Dir[Rails.root.join('config', 'locales', '**', '*.{rb,yml}').to_s]
     I18n.available_locales = [:en, :vi]
     I18n.default_locale = :vi
+    config.action_view.embed_authenticity_token_in_remote_forms = true
   end
 end

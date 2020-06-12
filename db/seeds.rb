@@ -8,7 +8,8 @@
 User.create!(name: "User",
              email: "user@gmail.com",
              password: "123qwe",
-             password_confirmation: "123qwe")
+             password_confirmation: "123qwe",
+             activated: true)
 99.times do |n|
   name = Faker::Name.name
   email = "user#{n + 1}@gmail.com"
@@ -16,7 +17,8 @@ User.create!(name: "User",
   User.create!(name: name,
                email: email,
                password: password,
-               password_confirmation: password)
+               password_confirmation: password,
+               activated: true)
 end
 
 user = User.order(:created_at).take(6)
@@ -24,3 +26,9 @@ user = User.order(:created_at).take(6)
   content = Faker::Lorem.sentence(5)
   user.each { |user| user.micro_posts.create!(content: content)}
 end
+users = User.all
+user = users.first
+following = users[2..20]
+followers = users[3..15]
+following.each{|followed| user.follow followed}
+followers.each{|follower| follower.follow(user)}
