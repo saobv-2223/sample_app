@@ -135,3 +135,9 @@ en:
     delete_fail: "You deleted micro post un-successfully"
     image_size: "Maximum file size upload must be smaller than 5MB"
     post: "Post"
+  follow:
+    follower_title: "Followers"
+    following_title: "Following"
+    follow: "Follow"
+    unfollow: "Unfollow"
+    action_fail: "Somethings went wrong, try again later"

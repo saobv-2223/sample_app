@@ -111,3 +111,9 @@ vi:
     delete_fail: "Bạn đã xóa bài viết không thành công"
     image_size: "Chỉ hỗ trợ file ảnh có dung lượng < 5MB"
     post: "Đăng"
+  follow:
+    follower_title: "Nguời theo dõi"
+    following_title: "Đang theo dõi"
+    follow: "Theo dõi"
+    unfollow: "Bỏ theo dõi"
+    action_fail: "Đã có lỗi xảy ra, hãy thử lại sau"
